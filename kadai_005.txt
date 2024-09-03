@@ -1,0 +1,16 @@
+  472  composer create-project "laravel/laravel=9.*" laravel-Samuraimart\n
+  473  cd /path/to/your/folder\n
+  474  mkdir git_challenge\ncd git_challenge\ngit init\n
+  475  cd ~/Desktop\n
+  476  mkdir git_challenge\ncd git_challenge\ngit init\n
+  477  cd ~/Desktop/kadai/git_challenge\n
+  478  echo 'Hello, World!' > hello_world.txt\n
+  479  git add hello_world.txt\ngit commit -m "Initial commit with hello_world.txt"\n
+  480  echo "This is the first change." >> hello_world.txt
+  481  git add hello_world.txt
+  482  git commit -m "First change to hello_world.txt"\n
+  483  echo "This is the second change." >> hello_world.txt
+  484  git add hello_world.txt
+  485  git commit -m "Second change to hello_world.txt"
+  486  git log --oneline\n
+  487  mkdir ../kadai_005\n
